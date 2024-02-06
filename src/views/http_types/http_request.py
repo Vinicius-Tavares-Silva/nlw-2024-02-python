@@ -1,8 +1,9 @@
 from typing import Dict
 
 class HttpRequest:
-    
-    def __init__(self,
+
+    def __init__(
+            self,
             headers: Dict = None,
             body: Dict = None,
             query_params: Dict = None
